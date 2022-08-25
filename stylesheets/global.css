@@ -34,14 +34,14 @@
   --fs-heading-400: var(--fs-700);
   --fs-paragraph-400: var(--fs-300);
   
-  --hero-img: url('/images/hero-mobile.jpg');
+  --hero-img: url('../images/hero-mobile.jpg');
 }
 
 @media(min-width: 40em) {
   :root {
     --fs-paragraph-400: var(--fs-400);
     
-    --hero-img: url('/images/hero-desktop.jpg');
+    --hero-img: url('../images/hero-desktop.jpg');
   }
 }
 
@@ -159,7 +159,7 @@ body {
 }
 
 .email-input:not(:placeholder-shown):invalid {
-  background-image: url('/images/icon-error.svg');
+  background-image: url('../images/icon-error.svg');
   background-repeat: no-repeat;
   background-position: right 3.5rem center;
   border: 1px solid var(--clr-accent-400);
@@ -227,7 +227,7 @@ body {
       'header hero-img'
       'content hero-img'
       'footer hero-img';
-    background-image: url('/images/bg-pattern-desktop.svg');
+    background-image: url('../images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
     background-size: 57% 100%; /* width height */
   }
